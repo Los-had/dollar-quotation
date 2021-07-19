@@ -1,5 +1,6 @@
 import requests
 from time import sleep
+from colorama import Fore
 
 print('This program print the dollar quotation each 30 seconds')
 while True:
@@ -8,4 +9,4 @@ while True:
 
   dollar = url['USDBRL']['bid'].replace('.', ',')
   sleep(30)
-  print(f'Dollar quotation: {dollar}')
+  print('Dollar quotation: ' + Fore.LIGHTGREEN_EX + f'{dollar}' + Fore.RESET)

@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "dollar-quotation"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "print dollar quotation"
+authors = ["Los-had"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
